@@ -1,4 +1,3 @@
-// fetch.js
 const fs = require("fs");
 const path = require("path");
 const { chromium } = require("playwright");
@@ -6,19 +5,25 @@ const { chromium } = require("playwright");
 (async () => {
   const url = "https://www.khaborerkagoj.com/opinion";
 
+  // Launch browser
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto(url, { waitUntil: "networkidle" });
+  // Go to the page, wait for main DOM only
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
+  // Get the full HTML content
   const html = await page.content();
 
+  // Ensure the 'saved' directory exists
   const dir = "saved";
   if (!fs.existsSync(dir)) fs.mkdirSync(dir);
 
+  // Save opinion.html
   const filePath = path.join(dir, "opinion.html");
   fs.writeFileSync(filePath, html, "utf-8");
 
+  // Close browser
   await browser.close();
 
   // Regenerate index.html (always same name)
@@ -43,4 +48,6 @@ a:hover { text-decoration: underline; }
   `;
 
   fs.writeFileSync("index.html", index.trim(), "utf-8");
+
+  console.log("Opinion page saved successfully.");
 })();
