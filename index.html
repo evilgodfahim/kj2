@@ -1,62 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Saved Opinion Pages</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 40px;
-      background: #fafafa;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    ul {
-      padding: 0;
-      list-style: none;
-    }
-    li {
-      margin: 6px 0;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Latest Opinion Snapshot</title>
+<style>
+body { font-family: sans-serif; margin: 40px; background: #fafafa; }
+a { text-decoration: none; color: #0066cc; }
+a:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
-  <h1>Saved HTML Snapshots</h1>
-  <p>This page lists all rendered HTML snapshots stored in the <code>saved/</code> directory.</p>
-
-  <ul id="fileList"></ul>
-
-  <script>
-    async function loadFiles() {
-      const api = "https://api.github.com/repos/evilgodfahim/as/contents/saved";
-      const res = await fetch(api);
-      if (!res.ok) return;
-
-      const files = await res.json();
-      const list = document.getElementById("fileList");
-
-      files
-        .filter(x => x.name.endsWith(".html"))
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .forEach(file => {
-          const li = document.createElement("li");
-          const link = document.createElement("a");
-          link.href = "saved/" + file.name;
-          link.textContent = file.name;
-          li.appendChild(link);
-          list.appendChild(li);
-        });
-    }
-
-    loadFiles();
-  </script>
+<h1>Latest Opinion Page Snapshot</h1>
+<p><a href="saved/opinion.html">Click here to view the most recent saved page</a></p>
+<p>This file overwrites itself every hour.</p>
 </body>
 </html>
