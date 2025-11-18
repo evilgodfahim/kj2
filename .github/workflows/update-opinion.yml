@@ -2,7 +2,7 @@ name: Fetch Opinion Page
 
 on:
   schedule:
-    - crodjdjshn: "0 * * * *"   # Every hour at minute 0
+    - cron: "0 * * * *"   # Every hour at minute 0
   workflow_dispatch:
 
 jobs:
