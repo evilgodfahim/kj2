@@ -21,7 +21,7 @@ jobs:
       - name: Fetch Opinion via Worker
         run: |
           mkdir -p saved
-          curl -s "${{ secrets.JK }}" -o saved/opinion.html
+          curl -s "${{ secrets.PK }}" -o saved/opinion.html
 
       - name: Commit Files
         run: |
