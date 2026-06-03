@@ -1,1 +1,2959 @@
-Error fetching page: 504
+<!doctype html>
+<html lang="bn" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="https://khaborerkagoj.com/index.php/" >
+    
+
+    <!--<link rel="icon" type="image/png" href="https://www.khaborerkagoj.com/image/favicon.ico">-->
+    <link rel="icon" type="image/x-icon" href="https://www.khaborerkagoj.com/image/favicon.ico">
+    <!--    style-->
+    <!--    bootstrap--> 
+    <script src="./frontend/common/dist/js/bootstrap.bundle.js" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+    <!--    bootstrap ends-->
+
+    <!--    splide-->
+    <link rel="stylesheet" href="./frontend/common/dist/splide-4.1.3/dist/css/splide.min.css">
+    <!--    splide ends-->
+
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+    <!--    fontawesome-->
+    <link rel="stylesheet" href="./frontend/common/fontawesome/css/all.min.css?787878">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-solid-900.ttf">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-solid-900.woff2">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-regular-400.woff2">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-regular-400.ttf">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-brands-400.ttf">
+    <link rel="font/tff" href="./frontend/common/fontawesome/webfonts/fa-brands-400.woff2">
+    <!--    fontawesome ends-->
+
+    <!--    manual css-->
+    <link rel="stylesheet" href="./frontend/bengali/my_css/style.css?669">
+    <link rel="stylesheet" href="./frontend/bengali/my_css/header.css">
+    <link rel="stylesheet" href="./frontend/bengali/my_css/navbar.css?13">
+
+
+  <link rel="stylesheet" type="text/css" href="./assets/site/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/site/css/main.css">
+
+    <!--manual css ends-->
+
+        <link rel="stylesheet" href="./frontend/bengali/my_css/category.css?v=11">
+    <!--  select2-->
+    <link rel="stylesheet" href="./frontend/common/dist/select2/css/select2.css">
+    <!--  select2-ends-->
+    <style>
+        .country-search-section {
+            padding-bottom: var(--full);
+            border-bottom: 1px solid var(--global-border-color);
+        }
+
+        .country-search {
+            background-color: var(--second-site-color);
+        }
+
+        .country-search .input-group {
+            height: 31px;
+
+        }
+    </style>
+    <style>
+
+        .image-box {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(53, 50, 50, 0.9) 75%, rgb(0, 0, 0) 100%);
+            opacity: 1;
+            top: 0;
+        }
+
+        .img-title-small {
+            position: absolute;
+            bottom: 1%;
+            color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-weight: var(--f-w-md);
+        }
+
+
+        a:hover .img-title-small {
+            color: var(--site-color);
+        }
+
+        @media only screen and (min-width: 992px) {
+            .border-lg-start {
+                border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+
+            .top-category-content .row .c-description-beneath-image {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid var(--global-border-color);
+            }
+
+            .top-category-content .lead-content {
+                padding-bottom: var(--full);
+                border-bottom: 1px solid var(--global-border-color);
+            }
+
+            .img-title-small {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+
+    <style>
+        .pagination {
+            --bs-pagination-padding-x: 0.75rem;
+            --bs-pagination-padding-y: 0.375rem;
+            --bs-pagination-font-size: 1rem;
+            --bs-pagination-color: var(--bs-link-color);
+            --bs-pagination-bg: #fff;
+            --bs-pagination-border-width: 1px;
+            --bs-pagination-border-color: #dee2e6;
+            --bs-pagination-border-radius: 0.375rem;
+            --bs-pagination-hover-color: var(--bs-link-hover-color);
+            --bs-pagination-hover-bg: #e9ecef;
+            --bs-pagination-hover-border-color: #dee2e6;
+            --bs-pagination-focus-color: var(--bs-link-hover-color);
+            --bs-pagination-focus-bg: #e9ecef;
+            --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+            --bs-pagination-active-color: #fff;
+            --bs-pagination-active-bg: #0d6efd;
+            --bs-pagination-active-border-color: #0d6efd;
+            --bs-pagination-disabled-color: #6c757d;
+            --bs-pagination-disabled-bg: #fff;
+            --bs-pagination-disabled-border-color: #dee2e6;
+            display: flex;
+            padding-left: 0;
+            list-style: none;
+            flex-wrap: wrap;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 4px 12px;
+            text-decoration: none;
+            margin: 3px;
+        }
+
+        .pagination a.active {
+            background-color: var(--second-site-color) !important;
+            color: white !important;
+            cursor: no-drop;
+            border-radius: 20px 20px;
+        }
+
+        .pagination a:hover {
+            background-color: var(--second-site-color);
+            color: white;
+            border-radius: 20px 20px;
+        }
+
+        .disabled:hover{
+            color: black !important;
+        }
+    </style>
+            <title>সম্পাদকীয় | খবরের কাগজ </title>
+    
+    <!--<meta property="fb:pages" content="100691145106319" />-->
+
+    
+
+    <meta name="Author" content="Khaborer Kagoj-খবরের কাগজ">
+    <meta name="Developer" content="Khaborer Kagoj">
+    <meta name="Developed By" content="Khaborer Kagoj IT">
+    <meta name="brand_name" content="Khaborer Kagoj-খবরের কাগজ"/>
+    
+    <meta name="title" content=" সম্পাদকীয়" />
+        <meta name="keywords" content="সম্পাদকীয়,editorial,খবরের কাগজ, Khaborer Kagoj, khaborerkagoj, khaborerkagoj.com, new newspaper, bd newspaper, bangla news, online bangla news, online bangla news portal, latest online bangla news, bangla news portal, bangla newspaper, bengali newspaper, bangladesh newspaper, bangla newspaper">
+    <meta content="ALL" name="robots">
+    <meta name="distribution" content="Global">
+    <meta http-equiv="Content-Language" content="bn">
+        <meta name="description" content="বাংলাদেশসহ আন্তর্জাতিক সর্বশেষ সংবাদ শিরোনাম, প্রতিবেদন, খেলা, বিনোদন, চাকরি, রাজনীতি ও বাণিজ্যের বাংলা নিউজ পড়তে ভিজিট করুন  খবরের কাগজ।">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta property="fb:app_id" content="976681619502350">-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Khaborer Kagoj-খবরের কাগজ" />
+    <meta property="og:url" content="https://khaborerkagoj.com/index.php/editorial">
+
+    
+        <meta name="og:title" content="সম্পাদকীয়" />
+    
+        <meta property="og:description" content="বাংলাদেশসহ আন্তর্জাতিক সর্বশেষ সংবাদ শিরোনাম, প্রতিবেদন, খেলা, বিনোদন, চাকরি, রাজনীতি ও বাণিজ্যের বাংলা নিউজ পড়তে ভিজিট করুন  খবরের কাগজ।" />
+    
+    <meta property="og:image" content="https://khaborerkagoj.com/index.php/image/comon-img.png?v=2">
+    
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+    
+        <meta name="twitter:title" content="সম্পাদকীয়" />
+    
+
+        <meta name="twitter:description" content="বাংলাদেশসহ আন্তর্জাতিক সর্বশেষ সংবাদ শিরোনাম, প্রতিবেদন, খেলা, বিনোদন, চাকরি, রাজনীতি ও বাণিজ্যের বাংলা নিউজ পড়তে ভিজিট করুন খবরের কাগজ।" />
+    
+
+    <meta property="twitter:image" content="https://khaborerkagoj.com/index.php/image/comon-img.png?v=2" />
+    <meta name="twitter:domain" content="https://khaborerkagoj.com/index.php" />
+    <meta name="twitter:site" content="@khaborerkagoj" />
+        <link rel="canonical" href="https://khaborerkagoj.com/index.php/editorial">
+        <meta name="robots" content="index, follow" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {
+        "@type":"ListItem",
+        "position":"1",
+        "item":{
+          "@id":"https://www.khaborerkagoj.com/",
+          "name":"Home"
+        }
+      },
+      {
+        "@type":"ListItem",
+        "position":"2",
+        "item":{
+          "@id":"https://www.khaborerkagoj.com/editorial",
+          "name":"সম্পাদকীয়"
+        }
+      }
+    ]
+  }
+</script>
+
+
+<script type="application/ld+json" data-schema="Organization">
+	{
+	"@context":"https://schema.org",
+	"@type":"Organization",
+	"name":"খবরের কাগজ",
+	"alternateName":"khaborer Kagoj",
+	"foundingDate":"2023-10-15",
+	"url":"https://www.khaborerkagoj.com",
+	"logo": "https://www.khaborerkagoj.com/frontend/common/images/logo.png",
+	"email":"mailto:info@khaborerkagoj.com",
+	"telephone":"+8802226665053",
+	"address":{
+	"@type":"PostalAddress",
+	"description":"সম্পাদকীয় এর খবর, বাংলাদেশসহ আন্তর্জাতিক সর্বশেষ সংবাদ শিরোনাম, প্রতিবেদন, খেলা, বিনোদন, চাকরি, রাজনীতি ও বাণিজ্যের বাংলা নিউজ পড়তে ভিজিট করুন খবরের কাগজ।",
+	"postalCode":"1000"}
+
+	},
+
+	"sameAs": ["https://www.facebook.com/dailykhaborerkagoj/", "https://youtube.com/@khaborerkagoj", "https://www.linkedin.com/in/khaborer-kagoj" ]
+</script>
+<script type="application/ld+json" data-schema="Organization">
+	{
+	"@type":"Website",
+		    "url":"https://www.khaborerkagoj.com/",
+
+	"interactivityType":"mixed",
+	"name":"খবরের কাগজ",
+		    "headline":"সম্পাদকীয় এর খবর | খবরের কাগজ",
+
+		   "keywords":"সম্পাদকীয়,editorial,খবরের কাগজ, Khaborer Kagoj, Khoborer Kagoj, Newspaper, bd newspaper, bangla news, bangla newspaper, bengali newspaper, bangladesh newspaper, bangla newspaper, bangladeshi newspaper, newspaper bangladesh, daily newspaper in bangladesh, daily newspapers of bangladesh, daily newspaper, Daily newspaper, Current News, current news, bengali daily newspaper, daily News , Portal, Bangla, News, Bangladesh, Bangladeshi, Bengali, Culture, Portal Site, Dhaka, Bangladesh News, business news, Business, Media, Dhaka News, World News, National News, Bangladesh Media, Current News, Weather news, Education news, Foreign Education, Higher Education, Sports news, Bangladesh Sports, Bangladesh Politics, Bangladesh Business",
+
+	"copyrightHolder": {
+		"@type":"NewsMediaOrganization",
+		"name":"খবরের কাগজ"
+	},
+		"potentialAction": {
+			"@type":"SearchAction",
+			"target":"https://www.khaborerkagoj.com/search?q={q}",
+			"query-input":"required name=q"
+		},
+		"mainEntityOfPage": {   "@type":"WebPage",
+			"@id":"https://www.khaborerkagoj.com"
+		},
+		"@context":"https://schema.org"
+}
+</script>
+    <!--    end style-->
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-EX6PDSTDY1" type="efb55b541d1e3765d92e8e07-text/javascript"></script> <script type="efb55b541d1e3765d92e8e07-text/javascript"> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-EX6PDSTDY1'); </script>
+    
+    <!-- Google Tag Manager -->
+<script type="efb55b541d1e3765d92e8e07-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WB7RQR94');</script>
+<!-- End Google Tag Manager -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7062522342421012" crossorigin="anonymous" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+      
+    googletag.defineSlot('/23134563979/home-sticky', [[320, 50], [320, 100], [300, 50], [970, 90], [728, 90], [300, 100]], 'div-gpt-ad-1714642996483-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/details-leaderboard-1', [[300, 50], [728, 90], [300, 100], [970, 66], [750, 100], [960, 90], [300, 75], [970, 90], [300, 250], [320, 100], [950, 90], [320, 50]], 'div-gpt-ad-1779422603911-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/details-right-1', [[300, 75], [300, 250], [320, 100], [300, 600], [320, 50], [300, 100], [300, 50]], 'div-gpt-ad-1714649612159-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/home-leaderboard-2', [[750, 100], [300, 75], [970, 90], [300, 50], [320, 100], [300, 100], [300, 250], [728, 90]], 'div-gpt-ad-1714650989731-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/sports-content-top', [[300, 100], [300, 75], [750, 100], [728, 90]], 'div-gpt-ad-1717379653833-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/details-leaderboard-2', [[300, 100], [300, 250], [728, 90]], 'div-gpt-ad-1720002975626-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/leaderboard-1', [[300, 50], [970, 90], [300, 100], [728, 90], [320, 100]], 'div-gpt-ad-1725620364405-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/home-popup', [[300, 250], [320, 480], 'fluid', [580, 400]], 'div-gpt-ad-1728958185347-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/Details-Inside-news-1', [[320, 100], [320, 50], [336, 280], [300, 100], [300, 250]], 'div-gpt-ad-1737033636467-0').addService(googletag.pubads());
+    // googletag.defineSlot('/23134563979/details-leaderboard-1', [[320, 100], [950, 90], [728, 90], [300, 50], [320, 50], [970, 90], [300, 100], [300, 250], [970, 66], [300, 75], [750, 100], [960, 90]], 'div-gpt-ad-1737030074925-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/home-lead-right-1', [[250, 250], [300, 100], [300, 250], [300, 75], [300, 50], [320, 100]], 'div-gpt-ad-1737383940696-0').addService(googletag.pubads());
+    
+    googletag.defineSlot('/23134563979/home-leaderboard1', [[320, 100], [300, 100], [728, 90], [970, 90]], 'div-gpt-ad-1779382549057-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/home-leaderboard1', [[320, 100], [970, 90], [300, 100], [728, 90]], 'div-gpt-ad-1779517503509-0').addService(googletag.pubads());
+    googletag.defineSlot('/23134563979/home-lead-right-1', [[300, 250], [320, 100], [300, 75], [300, 100], [300, 50], [250, 250]], 'div-gpt-ad-1779533674623-0').addService(googletag.pubads());
+    
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
+
+
+    
+
+
+    
+
+
+
+    
+        <meta name="google-adsense-account" content="ca-pub-7062522342421012">
+    <script type="efb55b541d1e3765d92e8e07-text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=652a311526faec001214afa5&product=inline-share-buttons&source=platform" async="async"></script>
+
+
+
+
+    <!-- Meta Pixel Code -->
+    <script type="efb55b541d1e3765d92e8e07-text/javascript">
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '388589533507527');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=388589533507527&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- ahrefs Code -->
+    <meta name="ahrefs-site-verification" content="e00572065ebf56cef0b3ded4f185cecc541c16959cd4cf46e0bdfa163c952837">
+    
+    <!--Feedify Script Start-->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script id="feedify_webscript" type="efb55b541d1e3765d92e8e07-text/javascript">
+    var feedify = feedify || {};
+      window.feedify_options={fedify_url:"https://app.feedify.net/",pkey:"BA0aKn01SwsNjFA5s/mOYoAJuaSChF5UrssDP0Fm1qN2Rs2Jp6chIQToaqLJVsVmyDUYKD8k3xQFlhhdHATs68s="};
+        (function (window, document){
+        function addScript( script_url ){
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.src = script_url;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        }
+        
+        addScript('https://cdn.feedify.net/getjs/feedbackembad-min-3.0.js');
+    })(window, document);
+    </script>
+    <!--Feedify Script End-->
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="KxXgEl2q" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+
+<div class="ads" >
+    </div>
+
+<header class="news-header">
+    <!-- top-header -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 m-auto">
+                <div class="d-lg-flex d-none social-media-icons">
+                    <a href="https://www.facebook.com/dailykhaborerkagoj" aria-label="Facebook" target="_blank">
+                        <div class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                    </a>
+                    <a href="https://www.youtube.com/@khaborerkagoj" aria-label="Youtube" target="_blank">
+                        <div class="social-icon youtube"><i class="fa-brands fa-youtube"></i></div>
+                    </a>
+                    <a href="https://x.com/khaborerkagojbd" aria-label="Twitter" target="_blank">
+                        <div class="social-icon twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/></svg>
+</div>
+                    </a>
+                    <a href="https://www.instagram.com/khaborerkagoj/" aria-label="Instagram" target="_blank">
+                        <div class="social-icon instagram"><i class="fa-brands fa-instagram"></i></div>
+                    </a>
+                </div>
+                
+                <p class="d-lg-flex ">
+                    <span style="color:black; margin:10px 10px 0 0;">
+                        <span><svg class="svg-inline--fa fa-location-crosshairs" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-crosshairs" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c17.7 0 32 14.3 32 32V66.7C368.4 80.1 431.9 143.6 445.3 224H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H445.3C431.9 368.4 368.4 431.9 288 445.3V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.3C143.6 431.9 80.1 368.4 66.7 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H66.7C80.1 143.6 143.6 80.1 224 66.7V32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm128-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z"></path></svg><!-- <i class="fas fa-location"></i> Font Awesome fontawesome.com --><text class="mx-1 font-xs">ঢাকা</text></span>
+                        <i class="fa fa-calendar" aria-hidden="true"></i> ২০ জ্যৈষ্ঠ ১৪৩৩, বুধবার, ০৩ জুন ২০২৬        </span>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12  ">
+                <div class="topImg">
+                    <!--d-lg-flex d-none -->
+                    <a class="  justify-content-center align-items-center" title="khaborerkagoj.com" href="">
+                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/assets/importent_images/logo-main.png?v=1.3" title="khaborerkagoj.com" alt="khaborerkagoj.com">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 m-auto">
+        <!--            <a href="#">-->
+                    <!--    <div class="social-icon" onclick="showSearchBox()" style="background: #F34A38"><i class="fas fa-search" style="cursor:pointer"></i></div>-->
+                    <!--</a>-->
+                    
+                    
+                    
+                    <div class="col-md-12 my-2 d-flex justify-content-end ">
+                        <div class="search-button">
+
+                        <form class="d-flex height-24" method="GET" action="https://khaborerkagoj.com/index.php/home/search">
+                        <input type="hidden" value="70e17ff1415a642e2" name="cx">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" value="UTF-8" name="ie">
+
+
+                        <input class="form-control me-2 font-xs" name="q"  type="search"
+                               placeholder="অনুসন্ধান করুন" aria-label="Search">
+                        <button class="header-search-button" type="submit"
+                        >
+                            <i class="fa-solid fa-magnifying-glass" style="margin-top: 5px"></i>
+                        </button>
+                        </form>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 my-2 d-flex flex-wrap justify-content-end ">
+                <a href="https://epaper.khaborerkagoj.com/" target="_blank"><span class="mx-2 "><i class="fa fa-newspaper"></i><text class="force-hover ms-1 font-xs fsize">ই-পেপার</text></span></a>
+                <a href="https://khaborerkagoj.com/index.php/archive"><span class="mx-2 "><i class="fa fa-archive "></i><text class="force-hover ms-1 font-xs fsize">আর্কাইভ</text></span></a>
+                <a href="https://khaborerkagoj.com/index.php/multimedia"><span class="mx-2"><i class="fa fa-video-camera"></i><text class="force-hover ms-1 font-xs fsize">ভিডিও</text></span></a>
+                <a href="https://english.khaborerkagoj.com/"><span class="mx-2 engV">en</span></a>
+                
+                <!--<a target="_blank" href="#"><span class="ms-1"><svg class="svg-inline--fa fa-newspaper" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"></path></svg><text class="force-hover ms-1 font-xs fsize">ই-পেপার</text></span></a>-->
+            </div>
+            
+            
+            <style>
+                .engV{
+                    border: 1px solid #ddd;
+                    padding: 3px 10px;
+                    border-radius: 6px;
+                    background-color: #e60505;
+                    color: #fff;
+                } 
+                .svg-inline--fa {
+                    display: var(--fa-display, inline-block);
+                    height: .8em;
+                    overflow: visible;
+                    vertical-align: -.125em;
+                }
+
+                .fsize{
+                    
+                    font-size:16px;
+                }
+                
+                .header-search-button {
+                    border: none;
+                    background-color: transparent;
+                    padding: 0;
+                    line-height: normal;
+                }
+                .mlogo{
+                    border-bottom:1px dotted #ccc;
+                    padding:5px;
+                }
+                .mlogo img{
+                    width: 50%;
+                }
+                
+                .dnav li{
+                    /*background: red;*/
+                    /*border-bottom:1px dotted #FFF;*/
+                    border-bottom: 1px dotted #00000051;
+                }
+                .dnav li a{
+                    color: #FFF;
+                }
+                .p0{
+                    padding:0;
+                }
+                .titlej{
+                      color: black;
+                      cursor: pointer;
+                      font-weight: bold;
+                      padding-top: 16px;
+                      line-height:30px;
+                }
+                .right-left-hr{
+                  border: 1px solid #a6a0a0;
+                  width: 100%;  
+                }
+                .dnavmostread img{
+                    width:100%;
+                }
+                .dnavhead{
+                    padding:10px;
+                }
+                .stickyNav{
+                    box-shadow:0 0 2px 0 #00000051;
+                }
+                
+                .offcanvas-body{
+                    scrollbar-width: thin;
+                }
+                .mr-0{
+                    margin-right:0px !important;
+                }
+            </style>
+            </div>
+        </div>
+    </div>
+    <!-- main navbar -->
+    <div class="DHeaderNav stickyNav " id="sticky-navbar">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default navbar-expand-lg navbar-inverse ">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <ul class="nav navbar-nav m-auto">
+                                <li class="nav-item"><a class="menuImg d-lg-flex justify-content-center align-items-center" title="https://khaborerkagoj.com/index.php" href="">
+                                        <img class="img-fluid "  src="https://khaborerkagoj.com/index.php/assets/importent_images/logo-main.png?v=1.3" title="https://khaborerkagoj.com/index.php" alt="https://khaborerkagoj.com/index.php">
+                                    </a></li>
+
+                                <li class="nav-item  ">
+                                        <a class="nav-link archive" href="https://khaborerkagoj.com/index.php/archive">সর্বশেষ</a>
+             
+                                </li>
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/national">জাতীয়</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/politics">রাজনীতি</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/economics-business">অর্থকড়ি</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/special-report">বিশেষ প্রতিবেদন</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/international">বিশ্বগ্রাম</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/country">রূপসী বাংলা</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/sports">খেলার ভুবন</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/entertainment">রঙ</a>             
+                                </li>
+                                  
+                                 
+                                
+                                <li class="nav-item  ">
+                                    <a class="nav-link " href="https://khaborerkagoj.com/index.php/opinion">যুক্তিতর্ক</a>             
+                                </li>
+                                  
+                                 
+                                
+                                 
+
+                                <li class="nav-item offcanfordesktop">
+                                    <nav class="navbar navbar-default navbar-expand-lg ">
+                                        <div class="d-flex justify-content-between  navbar-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExampled" aria-controls="offcanvasExampled">
+                                            <span class="navbar-icon"><i class="fas fa-bars"></i></span>
+                
+                                        </div>
+                                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExampled" aria-labelledby="offcanvasExampleLabel">
+                                            <div class="offcanvas-header">
+                                                <button type="button" class="btn-close justify-content-end " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="topImgNav bgcolor mlogo">
+                                                    <a class=" d-lg-flex d-none justify-content-center align-items-center" title="laalshobuj.com" href="">
+                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/assets/importent_images/logo-main.png?v=1.3" title="khaborerkagoj.com" alt="khaborerkagoj.com">
+                                                    </a>
+                                                </div> 
+                                            <div class="m-auto">
+                                                <a class="d-flex justify-content-center m-auto pb-2" href="#"> <span class="d-flex align-items-center Dnews-date">
+                                                        বুধবার, ০৩ জুন ২০২৬, ২০ জ্যৈষ্ঠ ১৪৩৩</span></a>
+                                                <div class="d-flex justify-content-start m-auto pb-4 social-media-icons">
+                                                    <a href="https://www.facebook.com/dailykhaborerkagoj/" aria-label="Facebook" target="_blank">
+                                                        <div class="social-icon1 facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                                                    </a>
+                                                    <a href="https://www.youtube.com/@khaborerkagoj" aria-label="Youtube" target="_blank">
+                                                        <div class="social-icon1 youtube"><i class="fa-brands fa-youtube"></i></div>
+                                                    </a>
+                                                    <a href="https://x.com/khaborerkagojbd" aria-label="Twitter" target="_blank">
+                                                        <div class="social-icon1 twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/></svg></div>
+                                                    </a>
+                                                    <a href="https://www.instagram.com/khaborerkagoj/" aria-label="Instagram" target="_blank">
+                                                        <div class="social-icon1 instagram"><i class="fa-brands fa-instagram"></i></div>
+                                                    </a>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div id="navbarTogglerDemo01">
+                                                    <div class="row">
+                                                        <div class="col-12 p0">
+                                                            <ul class="dnav">
+                                
+                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/golden-line">সুবর্ণরেখা</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/religion">ইসলাম</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/employment">কর্মযোগ</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/health">নিরাময়</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/campus">ক্যাম্পাস</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/education">লেখাপড়া</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/literary-society">সাহিত্যসভা</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/knowledge-science">জ্ঞান-বিজ্ঞান</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/agriculture">খেত খামার</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/factcheck">ফ্যাক্টচেক</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/fashion-plus">ফ্যাশন প্লাস</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/satire">রঙ্গব্যঙ্গ</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/compassionate">মমতাময়ী</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/law-court">আইন-আদালত</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/editorial">সম্পাদকীয়</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/art-culture">শিল্প-সংস্কৃতি</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/here-is-the-anchor">এখানে নোঙর</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/corporate-corner">করপোরেট কর্নার</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/liberation-war">মুক্তিযুদ্ধ</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/history-tradition">ইতিহাস-ঐতিহ্য</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/face-to-face">মুখোমুখি</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/duranta">দুরন্ত</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/crime">অপরাধ</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/Interval">বিরতি</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/post-editorial">বলতে চাই</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/tourism">পর্যটন</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/teenage-plus">টিনএজ প্লাস</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/post-office">ডাকঘর</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/technologies-of-today">আজকের প্রযুক্তি</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/horoscope">রাশিফল</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/lives-nature">প্রাণ-প্রকৃতি</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/another-world">অন্যভুবন</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/automobile">অটোমোবাইল</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/mass-media">মিডিয়াপাড়া</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/emigration">পরবাস</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/book-fair">বইমেলা</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/special-copy">বিশেষ সংখ্যা</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/social-media">সোশ্যাল মিডিয়া</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/liberation-march">মুক্তিসংগ্রামের মার্চ</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/various">অফবিট</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/Bandhujan">বন্ধুজন</a>
+                                                                </li>
+                                                                                                                              
+                                                            
+                                                                                                                                
+                                                                                                                                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link dversion" href="https://khaborerkagoj.com/index.php/eid-arrangement">ঈদ আয়োজন</a>
+                                                                </li>
+                                                                                                                                                                                             
+
+                                                            </ul>
+                                                        </div>
+                                                                                                                
+                                                        <div class="col-md-12"> 
+                                                            <h5 class="titlej text-center">সর্বাধিক পঠিত</h5>
+                                                            <hr class="right-left-hr">  
+                                                            
+                                                            
+                                                                                                                            
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Untitled-2-1780453425.jpg" alt="ঠাকুরগাঁওয়ে লিচু ব্যবসায় ধস">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="economics-business/919570"><h5 class="">ঠাকুরগাঁওয়ে লিচু ব্যবসায় ধস</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Untitled-5-1780458670.jpg" alt="‎সদরপুরে সরকারি জমি থেকে মাটি কাটায় জরিমানা">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="country/919590"><h5 class="">‎সদরপুরে সরকারি জমি থেকে মাটি কাটায় জরিমানা</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Untitled-1-1780462819.jpg" alt="বাল্যবিয়ের আসরে আকস্মিক উপস্থিত ইউএনও, অতপর...">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="country/919607"><h5 class="">বাল্যবিয়ের আসরে আকস্মিক উপস্থিত ইউএনও, অতপর...</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/dsdd-1780492535.jpg" alt="ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="national/919699"><h5 class="">ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Measles-1780482297.jpg" alt="হাম-উপসর্গে মৃত্যু ৬০০ ছাড়াল">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="national/919671"><h5 class="">হাম-উপসর্গে মৃত্যু ৬০০ ছাড়াল</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Untitled-6-1780457794.jpg" alt="৯ বছরের শিশুকে ধর্ষণচেষ্টার অভিযোগে ৭০ বছরের বৃদ্ধ আটক">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="crime/919589"><h5 class="">৯ বছরের শিশুকে ধর্ষণচেষ্টার অভিযোগে ৭০ বছরের বৃদ্ধ আটক</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/7-1780459858.jpg" alt="ন্যাশনাল এডিটরস কাউন্সিলের আত্মপ্রকাশ">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="mass-media/919597"><h5 class="">ন্যাশনাল এডিটরস কাউন্সিলের আত্মপ্রকাশ</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Dolar-8-1780463579.jpg" alt="দাম বেড়েছে ব্রিটেন পাউন্ড, চায়না ইউয়ানের">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="economics-business/919609"><h5 class="">দাম বেড়েছে ব্রিটেন পাউন্ড, চায়না ইউয়ানের</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/Untitled-1-1780452441.jpg" alt="স্নিগ্ধ রং ও সুবাসের বেলি ফুল">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="lives-nature/919566"><h5 class="">স্নিগ্ধ রং ও সুবাসের বেলি ফুল</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        <div class="left-news-list dnavmostread">
+                                                                <div class="card mb-3">
+                                                                  <div class="row g-0">
+                                                                    <div class="col-md-4 text-right ">
+
+                                                                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/uploads/2026/06/03/thumbnail/amir-khosru-03-1780472368.jpg" alt="প্রতিটি নাগরিকের কথা মাথায় রেখে বাজেট হচ্ছে: অর্থমন্ত্রী">
+                                                                         
+                                                                      
+                                                                    </div>
+                                                                    
+                                                                                                                                        <div class="col-md-8 text-left">
+                                                                      <div class="dnavhead">
+                                                                        <!-- Center-aligned content -->
+                                                                        <div>
+                                                                          <a href="economics-business/919636"><h5 class="">প্রতিটি নাগরিকের কথা মাথায় রেখে বাজেট হচ্ছে: অর্থমন্ত্রী</h5></a>
+                                                                
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                                                                                        
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        
+                                                            
+                                                            
+                                                        </div>
+                                                        
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<header class="news-header2 ">
+    <div class="DHeaderNav  stickyNav" id="sticky-navbar">
+        <div class="row mr-0">
+            <div class="col-3">
+                <nav class="navbar navbar-default navbar-expand-lg ">
+                    <div class="d-flex justify-content-between  navbar-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span class="navbar-icon"><i class="fas fa-bars"></i></span>
+
+                    </div>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close justify-content-end " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        
+                        <div class="topImgNav bgcolor text-center">
+                            <a title="https://khaborerkagoj.com/index.php" href="">
+                                <img width="40%" class="img-fluid" src="https://khaborerkagoj.com/index.php/assets/importent_images/logo-main.png?v=1.3" title="https://khaborerkagoj.com/index.php" alt="https://khaborerkagoj.com/index.php">
+                            </a>
+                        </div>
+                        
+                        
+                        <div class="m-auto">
+                            <a class="d-flex justify-content-center m-auto pb-2" href="#"> <span class="d-flex align-items-center Dnews-date">
+                                    বুধবার, ০৩ জুন ২০২৬, ২০ জ্যৈষ্ঠ ১৪৩৩ </span></a>
+                            <div class="d-flex justify-content-start m-auto pb-4 social-media-icons">
+                                <a href="https://www.facebook.com/dailykhaborerkagoj/" aria-label="Facebook" target="_blank">
+                                    <div class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                                </a>
+                                <a href="https://www.youtube.com/@khaborerkagoj" aria-label="Youtube" target="_blank">
+                                    <div class="social-icon youtube"><i class="fa-brands fa-youtube"></i></div>
+                                </a>
+                                <a href="https://x.com/khaborerkagojbd" aria-label="Twitter" target="_blank">
+                                    <div class="social-icon twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/></svg></div>
+                                </a>
+                                <a href="https://www.instagram.com/khaborerkagoj/" aria-label="Instagram" target="_blank">
+                                    <div class="social-icon instagram"><i class="fa-brands fa-instagram"></i></div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/khaborer-kagoj-%E0%A6%96%E0%A6%AC%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C-120353283" aria-label="Linkedin" target="_blank">
+                                    <div class="social-icon linkedin"><i class="fa-brands fa-linkedin-in"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="navbarTogglerDemo01">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <ul class="nav navbar-nav">
+
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/national">জাতীয়</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/politics">রাজনীতি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/economics-business">অর্থকড়ি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/special-report">বিশেষ প্রতিবেদন</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/international">বিশ্বগ্রাম</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/country">রূপসী বাংলা</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/sports">খেলার ভুবন</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/entertainment">রঙ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/opinion">যুক্তিতর্ক</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/golden-line">সুবর্ণরেখা</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/religion">ইসলাম</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/employment">কর্মযোগ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/health">নিরাময়</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/campus">ক্যাম্পাস</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/education">লেখাপড়া</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/literary-society">সাহিত্যসভা</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/knowledge-science">জ্ঞান-বিজ্ঞান</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/agriculture">খেত খামার</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/factcheck">ফ্যাক্টচেক</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/fashion-plus">ফ্যাশন প্লাস</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/satire">রঙ্গব্যঙ্গ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/compassionate">মমতাময়ী</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/law-court">আইন-আদালত</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/editorial">সম্পাদকীয়</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/art-culture">শিল্প-সংস্কৃতি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/here-is-the-anchor">এখানে নোঙর</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/corporate-corner">করপোরেট কর্নার</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/liberation-war">মুক্তিযুদ্ধ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/history-tradition">ইতিহাস-ঐতিহ্য</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/face-to-face">মুখোমুখি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/duranta">দুরন্ত</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/crime">অপরাধ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/Interval">বিরতি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/post-editorial">বলতে চাই</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/tourism">পর্যটন</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/teenage-plus">টিনএজ প্লাস</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/post-office">ডাকঘর</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/technologies-of-today">আজকের প্রযুক্তি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/horoscope">রাশিফল</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/lives-nature">প্রাণ-প্রকৃতি</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/another-world">অন্যভুবন</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/automobile">অটোমোবাইল</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/mass-media">মিডিয়াপাড়া</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/emigration">পরবাস</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/book-fair">বইমেলা</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/special-copy">বিশেষ সংখ্যা</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/social-media">সোশ্যাল মিডিয়া</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/liberation-march">মুক্তিসংগ্রামের মার্চ</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/various">অফবিট</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/Bandhujan">বন্ধুজন</a></li>
+                                             
+                                                <li class="nav-item"><a class="nav-link" href="https://khaborerkagoj.com/index.php/eid-arrangement">ঈদ আয়োজন</a></li>
+                                                                                         
+                                                                                       
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-6">
+                <div class="mobile-logo">
+                    <a href="" title="khaborerkagoj.com">
+                        <img class="img-fluid" src="https://khaborerkagoj.com/index.php/assets/importent_images/logo-main.png?v=1.3" alt="khaborerkagoj.com">
+                    </a>
+                </div>
+            </div>
+            <div class=" col-3">
+                <a href="#" class="searchIcon ">
+                    <div onclick="if (!window.__cfRLUnblockHandlers) return false; showSearchBox()" data-cf-modified-efb55b541d1e3765d92e8e07-=""><i href="#" class="fas fa-search"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    
+<div class="scroller">
+    <div class="row">
+        <div class="news-scroll-area">
+            <div class="pdt d-flex justify-content-between align-items-center  breaking-news "> 
+            <!--headlinews-->
+                
+                
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-1 px-1 news">
+                                                <span class="d-flex align-items-center colormain">সর্বশেষ</span>
+                                        </div>
+                
+                    <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.stop();" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.start();" data-cf-modified-efb55b541d1e3765d92e8e07-="">
+                                         
+                        <a href="./sports/919724">৩ দশকের অভিজ্ঞতা নিয়ে নির্বাচন করছেন পাপ্পু</a>
+                                         
+                        <a href="./international/919723">মোজতবা খামেনির সঙ্গে এক সময় দেখা হতে পারে: ট্রাম্প</a>
+                                         
+                        <a href="./sports/919722">নভেম্বরে ঢাকায় পুরুষ সাফ চ্যাম্পিয়নশিপ</a>
+                                         
+                        <a href="./politics/919721">কাশিমপুর কারাগার থেকে মুক্তি পেলেন সেলিনা হায়াৎ আইভী</a>
+                                         
+                        <a href="./country/919720">সোনারগাঁওয়ে লোকনাথ ব্রহ্মচারীর তিরোধান দিবস উদযাপন, লাখো ভক্তদের ঢল</a>
+                                         
+                        <a href="./country/919719">জয়পুরহাটে মোটরসাইকেলের ধাক্কায় দলিল লেখক নিহত</a>
+                                         
+                        <a href="./country/919718">শিশু ধর্ষণের শাস্তি একটি থাপ্পড় ও ক্ষমা প্রার্থনা</a>
+                                         
+                        <a href="./national/919717">প্রত্যাহার হচ্ছে প্রিপেইড মিটারের মাসিক চার্জ</a>
+                                         
+                        <a href="./country/919716">জয়পুরহাটে বজ্রপাতে নারীসহ নিহত ২</a>
+                                         
+                        <a href="./art-culture/919715">বিচারপতি মোহাম্মদ আবদুর রউফ স্মারক গ্রন্থের জন্য লেখা আহ্বান</a>
+                                         
+                        <a href="./politics/919714">এনসিপি নেতার বিরুদ্ধে সরকারি রাস্তা বন্ধের অভিযোগ, প্রতিবাদ করায় বাড়িঘর ভাঙচুর</a>
+                                         
+                        <a href="./sports/919713">বসুন্ধরা স্পোর্টস সিটির বাস্কেটবল কোর্ট পরিদর্শনে ফেডারেশনের শীর্ষ কর্মকর্তারা</a>
+                                         
+                        <a href="./country/919712">রংপুরে পানিতে ডুবে ৩ শিশুর মৃত্যু</a>
+                                         
+                        <a href="./art-culture/919711">নজরুলের ‘কাণ্ডারী হুঁশিয়ার’-এর শতবর্ষ উদযাপনে দেশব্যাপী কর্মসূচির আহ্বান</a>
+                                         
+                        <a href="./country/919710">বরগুনায় ডাকবাংলো থেকে মা ও ২ মেয়ের মরদেহ উদ্ধার</a>
+                                         
+                        <a href="./national/919709">মেট্রোরেল কর্মীদের ডিজিটাল হাজিরা চালু: স্বস্তির মাঝে ক্ষোভ</a>
+                                         
+                        <a href="./country/919708">চাঁপাইনবাবগঞ্জে বজ্রপাতে ২ জনের মৃত্যু</a>
+                                         
+                        <a href="./religion/919670">আল্লাহ কোরআনে জানালেন বিশেষ ৩ গুণের কথা</a>
+                                         
+                        <a href="./national/919707">আদ্-দ্বীনে ৬ নবজাতকের মৃত্যু: স্বাস্থ্যমন্ত্রীর কাছে তদন্ত প্রতিবেদন জমা</a>
+                                         
+                        <a href="./national/919706">মায়ের প্রতি অবহেলা:ছেলে যুগ্ম সচিব আনিসুরকে দায়িত্ব থেকে প্রত্যাহার</a>
+                                         
+                        <a href="./sports/919705">নিলামে উঠছে পেলের ১৯৫৮ সালের ফাইনালের জার্সি</a>
+                                         
+                        <a href="./national/919704">বিদ্যুতের দাম বাড়ানো গণবিরোধী, সিদ্ধান্ত প্রত্যাহারের দাবি বাসদের</a>
+                                         
+                        <a href="./national/919703">ঈদের ছুটিতে মেট্রোরেলে যাতায়াত করেছেন সাড়ে ১০ লাখের বেশি যাত্রী</a>
+                                         
+                        <a href="./sports/919702">চপলের আরও এক বড় চমক</a>
+                                         
+                        <a href="./country/919701">বরগুনায় সেপটিক ট্যাঙ্কের বিষাক্ত গ্যাসে দুই শ্রমিকের মৃত্যু</a>
+                                         
+                        <a href="./country/919700">হবিগঞ্জে আর্জেন্টিনা-ব্রাজিল সমর্থকদের সংঘর্ষ, আহত অর্ধশতাধিক</a>
+                                         
+                        <a href="./national/919699">ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী</a>
+                                         
+                        <a href="./national/919698">গোপালগঞ্জে মহাসড়কে টায়ার জ্বালিয়ে নিষিদ্ধ সংগঠন ছাত্রলীগের বিক্ষোভ</a>
+                                         
+                        <a href="./sports/919696">নেপালের স্বপ্ন ভেঙে ফাইনালে বাংলাদেশ</a>
+                                         
+                        <a href="./country/919695">বাঁশের খুঁটিতে বিদ্যুৎ লাইন, ৫ গরুর মৃত্যু</a>
+                                         
+                    </marquee>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* news-heading */
+    .scroller{margin-top:20px; position:fixed; bottom:0; z-index:100; width:100%}
+    .news{position:relative;padding:0 10px !important;}
+    .headlinews{background:#292c5c;padding:3px 0;}
+    /*.breaking-news{background:#E52E2E;padding:3px 0;box-shadow: 3px 3px 3px #eac9c9;}*/
+    .breaking-news{background:#f1eeee;padding:3px 0;box-shadow: 3px 3px 3px  #aca6a6; color:#414141}
+    .breaking-news marquee a{color:#414141;}
+    .bg-danger{background-color: #E52E2E !important;}
+    .news-scroll{margin-left:20px;font-size:0; border-left:1px solid #aca6a6;}
+    .news-scroll a{text-decoration:none;font-size:16px;color:#FFF;font-weight:700;}
+    .news-scroll a::before { display: inline-block; width: 5px; height: 5px; background-color: #000; content: ''; margin: 0 10px; transform: translateY(-50%); border-radius: 50%; }
+    .dot{height:5px;width:5px;margin-left:8px;margin-right:8px;background-color:var(--white);display:inline-block;border-radius:50%;}
+    .news-scroll-area span{font-size:18px;font-weight:700; color:#414141}
+    .pdt{padding:10px};
+    
+</style>
+
+<style>
+    
+    .d-menu { 
+        width: 100%;
+        padding: 16px 20px;
+        display: inline-block;
+        text-decoration: none;
+        float: left;
+        font-size: 14px;
+        color: #000 !important;
+        font-weight: bold;
+        background-color: #fdfdfd;
+        -webkit-transition: color 0.3s, background 0.3s;
+        transition: color 0.3s, background 0.3s;
+        border-bottom:1px dotted #ddd;
+    }
+</style>
+
+    <div class="ads">
+                
+    
+        </div>
+
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="top-section border-bottom">
+                <div class="breadcrumb mb-0 ">
+                    <table class="table d-flex  table-borderless mb-0">
+                        <tbody>
+                        <tr class="d-flex">
+                            <th class="d-flex align-items-center">
+                                <a href="https://khaborerkagoj.com/index.php">
+                                    <i class="fa-solid fa-house"></i>
+                                </a>
+                            </th>
+                                <th class="d-flex align-items-center ">
+        <a href="https://khaborerkagoj.com/index.php/editorial" class="active">সম্পাদকীয়</a>
+    </th>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                        <div class="sub-category">
+        <table class="table d-flex table-borderless text-nowrap overflow-x-auto mb-0 ">
+            <tbody>
+            <tr class="d-flex">
+                                            </tr>
+            </tbody>
+        </table>
+    </div>
+            </div>
+        </div>
+            <div class=" col-lg-9 col-12 py-3">
+                            <div class="top-category-content ">
+    <div class="row">
+                <div class="col-lg-8 col-12">
+                            <div class="lead-content h-100">
+                    <a title="সচেতনতার সঙ্গে সরকারি উদ্যোগও প্রয়োজন" href="https://khaborerkagoj.com/index.php/editorial/919634"
+                       style="height: inherit; display: inline-block">
+                        <div class="image-box">
+                            <img class="img-fluid" src="uploads/2026/06/03/Editorial-1780471315.jpg" alt="সচেতনতার সঙ্গে সরকারি উদ্যোগও প্রয়োজন">
+                            
+                            <div class="overlay">
+                                <h5 class="img-title-small">
+                                                                            <span
+                                            class="sub-heading">অবহেলায় নিঃসঙ্গ মায়ের মৃত্যু</span>
+                                                                        সচেতনতার সঙ্গে সরকারি উদ্যোগও প্রয়োজন
+                                </h5>
+
+                            </div>
+                            
+                        </div>
+                    </a>
+                </div>
+                    </div>
+        <div class="col-lg-4 col-12  border-lg-start">
+                                            <a href="https://khaborerkagoj.com/index.php/editorial/919471" title="দুর্ঘটনা এড়াতে জনসচেতনতা কাম্য">
+                    <div class="c-description-beneath-image">
+                        <div class="d-flex d-lg-none">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ফুটওভারব্রিজে মরণফাঁদ</span>
+                                                                দুর্ঘটনা এড়াতে জনসচেতনতা কাম্য
+                            </h5>
+                        </div>
+                        <div class="image-container d-flex">
+                            <div class="paragraph col-7 d-lg-none pe-2">
+                                <p style="margin-bottom: .5rem !important;">
+                                    ফুটওভারব্রিজ পথচারীদের নিরাপদ পারাপারের ব্যবস্থা হলেও অনেক ক্ষেত্রেই সেগুলো পরিণত হয়েছে মরণফাঁদে। খবরের কাগজের সরেজমিন...
+                                </p>
+                                <small>
+                                    ১ দিন আগে
+                                </small>
+                            </div>
+                            <div class=" col-5 col-lg-12">
+                                <div class="image">
+                                     <img class="img-fluid" src="uploads/2026/06/02/Editorial-1780385237.jpg" alt="দুর্ঘটনা এড়াতে জনসচেতনতা কাম্য">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container d-none d-lg-block">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ফুটওভারব্রিজে মরণফাঁদ</span>
+                                                                দুর্ঘটনা এড়াতে জনসচেতনতা কাম্য
+                            </h5>
+                            <p style="margin-bottom: .5rem !important;">
+                                ফুটওভারব্রিজ পথচারীদের নিরাপদ পারাপারের ব্যবস্থা হলেও অনেক ক্ষেত্রেই সেগুলো পরিণত হয়েছে মরণফাঁদে। খবরের কাগজের সরেজমিন...
+                            </p>
+                            <small>
+                                ১ দিন আগে
+                            </small>
+                        </div>
+                    </div>
+                </a>
+
+                        </div>
+                    <div class="d-none d-lg-block">
+                <mnl-border-my></mnl-border-my>
+            </div>
+                <div class="col-lg-4 col-12 ">
+                                                        <a href="https://khaborerkagoj.com/index.php/editorial/919468" title="বিড়ম্বনার মধ্যেও স্বস্তিতে কেটেছে">
+                    <div class="c-description-beneath-image">
+                        <div class="d-flex d-lg-none">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ঈদুল আজহার দিনগুলো</span>
+                                                                বিড়ম্বনার মধ্যেও স্বস্তিতে কেটেছে
+                            </h5>
+                        </div>
+                        <div class="image-container d-flex">
+                            <div class="paragraph col-7 d-lg-none pe-2">
+                                <p style="margin-bottom: .5rem !important;">
+                                    ঈদুল আজহার দীর্ঘ ছুটির পর জনজীবন ও দেশের সার্বিক অবস্থা স্বাভাবিক হতে শুরু করেছে। সব...
+                                </p>
+                                <small>
+                                    ১ দিন আগে
+                                </small>
+                            </div>
+                            <div class=" col-5 col-lg-12">
+                                <div class="image">
+                                     <img class="img-fluid" src="uploads/2026/06/02/Editorial-1780384669.jpg" alt="বিড়ম্বনার মধ্যেও স্বস্তিতে কেটেছে">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container d-none d-lg-block">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ঈদুল আজহার দিনগুলো</span>
+                                                                বিড়ম্বনার মধ্যেও স্বস্তিতে কেটেছে
+                            </h5>
+                            <p style="margin-bottom: .5rem !important;">
+                                ঈদুল আজহার দীর্ঘ ছুটির পর জনজীবন ও দেশের সার্বিক অবস্থা স্বাভাবিক হতে শুরু করেছে। সব...
+                            </p>
+                            <small>
+                                ১ দিন আগে
+                            </small>
+                        </div>
+                    </div>
+                </a>
+
+                        </div>
+                <div class="col-lg-4 col-12 border-lg-start">
+                                                        <a href="https://khaborerkagoj.com/index.php/editorial/918862" title="দ্রব্যের দামে স্বস্তি আনুন">
+                    <div class="c-description-beneath-image">
+                        <div class="d-flex d-lg-none">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">অসাধু ব্যবসায়ীরা বেপরোয়া</span>
+                                                                দ্রব্যের দামে স্বস্তি আনুন
+                            </h5>
+                        </div>
+                        <div class="image-container d-flex">
+                            <div class="paragraph col-7 d-lg-none pe-2">
+                                <p style="margin-bottom: .5rem !important;">
+                                    ঈদুল আজহার অল্প কদিন বাকি। ইতোমধ্যে অনেকেই রাজধানী ছাড়তে শুরু করেছেন। তার পরও বিভিন্ন অজুহাতে...
+                                </p>
+                                <small>
+                                    ১ সপ্তাহ আগে
+                                </small>
+                            </div>
+                            <div class=" col-5 col-lg-12">
+                                <div class="image">
+                                     <img class="img-fluid" src="uploads/2026/05/25/Editorial-1779698826.jpg" alt="দ্রব্যের দামে স্বস্তি আনুন">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container d-none d-lg-block">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">অসাধু ব্যবসায়ীরা বেপরোয়া</span>
+                                                                দ্রব্যের দামে স্বস্তি আনুন
+                            </h5>
+                            <p style="margin-bottom: .5rem !important;">
+                                ঈদুল আজহার অল্প কদিন বাকি। ইতোমধ্যে অনেকেই রাজধানী ছাড়তে শুরু করেছেন। তার পরও বিভিন্ন অজুহাতে...
+                            </p>
+                            <small>
+                                ১ সপ্তাহ আগে
+                            </small>
+                        </div>
+                    </div>
+                </a>
+
+                        </div>
+                <div class="col-lg-4 col-12 border-lg-start">
+                                                        <a href="https://khaborerkagoj.com/index.php/editorial/918677" title="নির্বিঘ্ন করতে পদক্ষেপ জরুরি">
+                    <div class="c-description-beneath-image">
+                        <div class="d-flex d-lg-none">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ঈদযাত্রায় ভোগান্তি বাড়ছে</span>
+                                                                নির্বিঘ্ন করতে পদক্ষেপ জরুরি
+                            </h5>
+                        </div>
+                        <div class="image-container d-flex">
+                            <div class="paragraph col-7 d-lg-none pe-2">
+                                <p style="margin-bottom: .5rem !important;">
+                                    নাড়ির টানে ঘরে ফেরা মানুষের ঈদযাত্রা শুরু হয়েছে। তবে ঈদযাত্রার শুরুতেই রাজধানীর বিভিন্ন পথে সৃষ্টি...
+                                </p>
+                                <small>
+                                    ১ সপ্তাহ আগে
+                                </small>
+                            </div>
+                            <div class=" col-5 col-lg-12">
+                                <div class="image">
+                                     <img class="img-fluid" src="uploads/2026/05/24/Editorial-1779606122.jpg" alt="নির্বিঘ্ন করতে পদক্ষেপ জরুরি">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container d-none d-lg-block">
+                            
+                            <h5>
+                                                                    <span
+                                        class="sub-heading">ঈদযাত্রায় ভোগান্তি বাড়ছে</span>
+                                                                নির্বিঘ্ন করতে পদক্ষেপ জরুরি
+                            </h5>
+                            <p style="margin-bottom: .5rem !important;">
+                                নাড়ির টানে ঘরে ফেরা মানুষের ঈদযাত্রা শুরু হয়েছে। তবে ঈদযাত্রার শুরুতেই রাজধানীর বিভিন্ন পথে সৃষ্টি...
+                            </p>
+                            <small>
+                                ১ সপ্তাহ আগে
+                            </small>
+                        </div>
+                    </div>
+                </a>
+
+                                    </div>
+    </div>
+</div>
+
+            <div class="ads">
+                            </div>
+            
+            <div class="ads" >
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7062522342421012" crossorigin="anonymous" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+            <!-- Responsive-Horizontal-Banner -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-7062522342421012"
+                 data-ad-slot="1037703082"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script type="efb55b541d1e3765d92e8e07-text/javascript">
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            </div>
+
+            <div class="category-contents col-lg-8 col-12 offset-lg-2 py-3">
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/918537" title="ট্যানারি মালিক আড়তদারদের সিন্ডিকেট ভাঙুন">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">চামড়া নিয়ে দস্যুতা</span>
+                                                ট্যানারি মালিক আড়তদারদের সিন্ডিকেট ভাঙুন
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            প্রতিবছর কোরবানির চামড়া বিক্রি ও সংরক্ষণে নানা রকম নৈরাজ্য লক্ষ করা যায়। সরকার কাঁচা চামড়ার...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ২৩ মে ২০২৬, ১২:০৮ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/23/thumbnail/Editorial-1779516485.jpg" alt="ট্যানারি মালিক আড়তদারদের সিন্ডিকেট ভাঙুন">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/918532" title="কারচুপি ঠেকাতে নজরদারি বাড়ান">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">পরিমাপে ঠকছেন ভোক্তা</span>
+                                                কারচুপি ঠেকাতে নজরদারি বাড়ান
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            পরিমাপের প্রতারণা থেকে রক্ষা পাচ্ছেন না ভোক্তারা। পণ্যের গুণগত মান, সঠিক ওজন, ন্যায্যমূল্য এবং নিজের...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ২৩ মে ২০২৬, ১১:৪৭ এএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/23/thumbnail/Editorial-1779515267.jpg" alt="কারচুপি ঠেকাতে নজরদারি বাড়ান">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/918304" title="টাইগারদের অভিনন্দন">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">পাকিস্তান ‘হোয়াইটওয়াশ’</span>
+                                                টাইগারদের অভিনন্দন
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            সবুজ ঘাসের সবুজ জমিনে লাল-সবুজের বাংলাদেশ সোনালি ইতিহাস গড়ল। ঐতিহাসিক এ ঘটনাটি ঘটেছে গতকাল সিলেট...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ২১ মে ২০২৬, ১১:৫৫ এএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/21/thumbnail/Editorial-1779342955.jpg" alt="টাইগারদের অভিনন্দন">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/918178" title="অবিলম্বে ইটভাটা বন্ধ করতে হবে">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">সাতকানিয়ায় মাটিখেকোদের রাজত্ব</span>
+                                                অবিলম্বে ইটভাটা বন্ধ করতে হবে
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            ভূমিদস্যুতার নতুন নজির স্থাপিত হয়েছে চট্টগ্রামের সাতকানিয়ায়। ছলে-বলে-কৌশলে ফসলি জমির মালিকদের কাছ থেকে জমির মাটি...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ২০ মে ২০২৬, ১২:৪৯ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/20/thumbnail/Editorial-1779259767.jpg" alt="অবিলম্বে ইটভাটা বন্ধ করতে হবে">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/918016" title="দাম নির্ধারণে সঠিক পরিকল্পনা জরুরি">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">ধানের ন্যায্যমূল্য পাচ্ছেন না কৃষক</span>
+                                                দাম নির্ধারণে সঠিক পরিকল্পনা জরুরি
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            সরকারের সঠিক পরিকল্পনার অভাবে দেশের শস্যভান্ডারখ্যাত উত্তরাঞ্চলে বোরো ধান বিক্রি করে চাষিদের লোকসান গুনতে হয়েছে।...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৯ মে ২০২৬, ১২:২৩ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/19/thumbnail/Editorial-1779171838.jpg" alt="দাম নির্ধারণে সঠিক পরিকল্পনা জরুরি">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917863" title="সাধারণ মানুষের ভোগান্তি কমাতে হবে">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">ভ্যাটের আওতা ও পরিমাণ বাড়ছে</span>
+                                                সাধারণ মানুষের ভোগান্তি কমাতে হবে
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            সরকার আয় বাড়াতে বাজেটে জনজীবনের পরতে পরতে রাজস্বের জাল বিস্তার করার কথা ভাবছে। সরকার বাধ্য...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৮ মে ২০২৬, ১১:৫৬ এএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/18/thumbnail/Editorial-1779083815.jpg" alt="সাধারণ মানুষের ভোগান্তি কমাতে হবে">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917694" title="জ্ঞানভিত্তিক সমাজ গঠনে জোর দিন">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">পারিবারিক ও সামাজিক অবক্ষয়</span>
+                                                জ্ঞানভিত্তিক সমাজ গঠনে জোর দিন
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            পারিবারিক-সামাজিক বন্ধনের মধুর সম্পর্কগুলো আজ নিঃশেষ হতে চলেছে। লোভ-লালসা ও সামাজিক নানা অস্থিরতায় একের পর...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৭ মে ২০২৬, ১১:৩০ এএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/17/thumbnail/Editorial-1778995821.jpg" alt="জ্ঞানভিত্তিক সমাজ গঠনে জোর দিন">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917563" title="প্রবাসী আয় বাড়াতে কার্যকর ব্যবস্থা নিন">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">মধ্যপ্রাচ্যে জনশক্তি রপ্তানি কমছে</span>
+                                                প্রবাসী আয় বাড়াতে কার্যকর ব্যবস্থা নিন
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            মধ্যপ্রাচ্যের চলমান যুদ্ধের প্রভাবে বাংলাদেশের জনশক্তি রপ্তানি প্রায় অর্ধেকে নেমেছে। বাংলাদেশ থেকে বিদেশে কর্মসংস্থানের মূল...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৬ মে ২০২৬, ১২:১৫ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/16/thumbnail/Editorial-1778912146.jpg" alt="প্রবাসী আয় বাড়াতে কার্যকর ব্যবস্থা নিন">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917560" title="শৃঙ্খলা ফেরাতে কার্যকর পদক্ষেপ নিন">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">ব্যাটারিচালিত রিকশার দৌরাত্ম্য</span>
+                                                শৃঙ্খলা ফেরাতে কার্যকর পদক্ষেপ নিন
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            রাজধানীর সড়কগুলোতে ব্যাটারিচালিত রিকশার দৌরাত্ম্য কমছেই না। নগরীর অলিগলি সর্বত্রই এসব বাহনের দাপটে নগরবাসী অতিষ্ঠ।...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৬ মে ২০২৬, ১২:০২ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/16/thumbnail/Editorial-1778911328.jpg" alt="শৃঙ্খলা ফেরাতে কার্যকর পদক্ষেপ নিন">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917291" title="যান চলাচলে স্বস্তি আসুক">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">ট্রাফিকব্যবস্থায় এআই</span>
+                                                যান চলাচলে স্বস্তি আসুক
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            যানজট ঢাকাসহ দেশের প্রধান শহরগুলোর নিত্যদিনের তীব্র সমস্যা। এই যানজট যেমন জ্বালানি তেল ও কর্মঘণ্টার...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৪ মে ২০২৬, ১২:৪২ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/14/thumbnail/Editorial-1778740926.jpg" alt="যান চলাচলে স্বস্তি আসুক">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+                    <div class="content">
+            <a href="https://khaborerkagoj.com/index.php/editorial/917136" title="সুসম্পর্ক বজায় রাখার দায়িত্ব বেশি ভারতের">
+                <div class="headline">
+                    
+                    <h5>
+                                                    <span
+                                class="sub-heading">কাঁটাতার ও পুশব্যাক নিয়ে উদ্বেগ</span>
+                                                সুসম্পর্ক বজায় রাখার দায়িত্ব বেশি ভারতের
+                    </h5>
+                </div>
+
+                <div class="description-then-image col-12">
+                    <div class="description-container pe-2 col-7">
+                        <p class="">
+                            প্রতিবেশী পশ্চিমবঙ্গের বিধানসভা নির্বাচনে ভারতীয় জনতা পার্টির (বিজেপি) জয়লাভের পর সেখানে পুশব্যাক ইস্যুটি আবার সামনে...
+                        </p> 
+                                                <br>
+                        <small class="d-none d-lg-block">
+                            প্রকাশ: ১৩ মে ২০২৬, ১২:০৫ পিএম
+                        </small>
+                    </div>
+                    <div class="image-container col-5">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/13/thumbnail/Editorial-1778652341.jpg" alt="সুসম্পর্ক বজায় রাখার দায়িত্ব বেশি ভারতের">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+<style>
+    .image-container img{
+        max-width:100%;
+    }
+    .image-box img{
+        max-width:100%;
+    }
+</style>
+
+            <div class="col-lg-12 col-12 py-1 d-flex justify-content-center" style="background-color: #fafbfd; border-radius: 10px 10px">
+        <div class="pagination">
+            
+                            <a class="disabled" style="cursor: no-drop; background-color: #fafbfd"><span>প্রথম</span></a>
+                <a class="disabled" style="cursor: no-drop; background-color: #fafbfd"><span>&laquo;</span></a>
+            
+            
+                            
+                
+                
+                                                                                        <a href="" class="active"><span>১</span></a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=2">২</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=3">৩</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=4">৪</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=5">৫</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=6">৬</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=7">৭</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=8">৮</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=9">৯</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=10">১০</a>
+                                                                                        
+                                    <a href="" class="disabled"><span>...</span></a>
+                
+                
+                                            
+                
+                
+                                                                                        <a href="https://khaborerkagoj.com/index.php/editorial?page=61">৬১</a>
+                                                                                                <a href="https://khaborerkagoj.com/index.php/editorial?page=62">৬২</a>
+                                                                        
+            
+                            <a href="https://khaborerkagoj.com/index.php/editorial?page=2" rel="next">&raquo;</a>
+                <a href="https://khaborerkagoj.com/index.php/editorial?page=62">শেষ</a>
+                    </div>
+    </div>
+
+
+
+
+
+            <div class="d-block d-lg-none">
+                <mnl-border-my></mnl-border-my>
+            </div>
+            </div>
+
+    <div class="col-lg-3 col-12 py-3">
+        <div class="ads pb-3 border-bottom">
+            
+            <!---->
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7062522342421012" crossorigin="anonymous" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+            <!-- Responsive-Horizontal-Banner -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-7062522342421012"
+                 data-ad-slot="1037703082"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script type="efb55b541d1e3765d92e8e07-text/javascript">
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+        </div>
+        <div class="ads pb-3 my-3 border-bottom">
+                    </div>
+
+        <div class="ads pb-3 my-3">
+        <div class="latest-popular">
+        <div class="tab">
+            <h5 id="default" class=" tab-category-link " onclick="if (!window.__cfRLUnblockHandlers) return false; tabContents(event, 'latest')" data-cf-modified-efb55b541d1e3765d92e8e07-="">
+                <div class="category-name">
+                    সর্বশেষ
+                </div>
+            </h5>
+            <h5 class=" tab-category-link " onclick="if (!window.__cfRLUnblockHandlers) return false; tabContents(event, 'popular')" data-cf-modified-efb55b541d1e3765d92e8e07-="">
+                <div class="category-name">
+                    সর্বাধিক পঠিত
+                </div>
+            </h5>
+        </div>
+        <div id="latest" class="tab-content">
+                            <ul class="overflow-y-scroll height325" >
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919724" title="৩ দশকের অভিজ্ঞতা নিয়ে নির্বাচন করছেন পাপ্পু">
+                                <h5 class="">
+                                    <serial> ১.</serial>
+                                    ৩ দশকের অভিজ্ঞতা নিয়ে নির্বাচন করছেন পাপ্পু
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/international/919723" title="মোজতবা খামেনির সঙ্গে এক সময় দেখা হতে পারে: ট্রাম্প">
+                                <h5 class="">
+                                    <serial> ২.</serial>
+                                    মোজতবা খামেনির সঙ্গে এক সময় দেখা হতে পারে: ট্রাম্প
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919722" title="নভেম্বরে ঢাকায় পুরুষ সাফ চ্যাম্পিয়নশিপ">
+                                <h5 class="">
+                                    <serial> ৩.</serial>
+                                    নভেম্বরে ঢাকায় পুরুষ সাফ চ্যাম্পিয়নশিপ
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/politics/919721" title="কাশিমপুর কারাগার থেকে মুক্তি পেলেন সেলিনা হায়াৎ আইভী">
+                                <h5 class="">
+                                    <serial> ৪.</serial>
+                                    কাশিমপুর কারাগার থেকে মুক্তি পেলেন সেলিনা হায়াৎ আইভী
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919720" title="সোনারগাঁওয়ে লোকনাথ ব্রহ্মচারীর তিরোধান দিবস উদযাপন, লাখো ভক্তদের ঢল">
+                                <h5 class="">
+                                    <serial> ৫.</serial>
+                                    সোনারগাঁওয়ে লোকনাথ ব্রহ্মচারীর তিরোধান দিবস উদযাপন, লাখো ভক্তদের ঢল
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919719" title="জয়পুরহাটে মোটরসাইকেলের ধাক্কায় দলিল লেখক নিহত">
+                                <h5 class="">
+                                    <serial> ৬.</serial>
+                                    জয়পুরহাটে মোটরসাইকেলের ধাক্কায় দলিল লেখক নিহত
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919718" title="শিশু ধর্ষণের শাস্তি একটি থাপ্পড় ও ক্ষমা প্রার্থনা">
+                                <h5 class="">
+                                    <serial> ৭.</serial>
+                                    শিশু ধর্ষণের শাস্তি একটি থাপ্পড় ও ক্ষমা প্রার্থনা
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919717" title="প্রত্যাহার হচ্ছে প্রিপেইড মিটারের মাসিক চার্জ">
+                                <h5 class="">
+                                    <serial> ৮.</serial>
+                                    প্রত্যাহার হচ্ছে প্রিপেইড মিটারের মাসিক চার্জ
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919716" title="জয়পুরহাটে বজ্রপাতে নারীসহ নিহত ২">
+                                <h5 class="">
+                                    <serial> ৯.</serial>
+                                    জয়পুরহাটে বজ্রপাতে নারীসহ নিহত ২
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/art-culture/919715" title="বিচারপতি মোহাম্মদ আবদুর রউফ স্মারক গ্রন্থের জন্য লেখা আহ্বান">
+                                <h5 class="">
+                                    <serial> ১০.</serial>
+                                    বিচারপতি মোহাম্মদ আবদুর রউফ স্মারক গ্রন্থের জন্য লেখা আহ্বান
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/politics/919714" title="এনসিপি নেতার বিরুদ্ধে সরকারি রাস্তা বন্ধের অভিযোগ, প্রতিবাদ করায় বাড়িঘর ভাঙচুর">
+                                <h5 class="">
+                                    <serial> ১১.</serial>
+                                    এনসিপি নেতার বিরুদ্ধে সরকারি রাস্তা বন্ধের অভিযোগ, প্রতিবাদ করায় বাড়িঘর ভাঙচুর
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919713" title="বসুন্ধরা স্পোর্টস সিটির বাস্কেটবল কোর্ট পরিদর্শনে ফেডারেশনের শীর্ষ কর্মকর্তারা">
+                                <h5 class="">
+                                    <serial> ১২.</serial>
+                                    বসুন্ধরা স্পোর্টস সিটির বাস্কেটবল কোর্ট পরিদর্শনে ফেডারেশনের শীর্ষ কর্মকর্তারা
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919712" title="রংপুরে পানিতে ডুবে ৩ শিশুর মৃত্যু">
+                                <h5 class="">
+                                    <serial> ১৩.</serial>
+                                    রংপুরে পানিতে ডুবে ৩ শিশুর মৃত্যু
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/art-culture/919711" title="নজরুলের ‘কাণ্ডারী হুঁশিয়ার’-এর শতবর্ষ উদযাপনে দেশব্যাপী কর্মসূচির আহ্বান">
+                                <h5 class="">
+                                    <serial> ১৪.</serial>
+                                    নজরুলের ‘কাণ্ডারী হুঁশিয়ার’-এর শতবর্ষ উদযাপনে দেশব্যাপী কর্মসূচির আহ্বান
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919710" title="বরগুনায় ডাকবাংলো থেকে মা ও ২ মেয়ের মরদেহ উদ্ধার">
+                                <h5 class="">
+                                    <serial> ১৫.</serial>
+                                    বরগুনায় ডাকবাংলো থেকে মা ও ২ মেয়ের মরদেহ উদ্ধার
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919709" title="মেট্রোরেল কর্মীদের ডিজিটাল হাজিরা চালু: স্বস্তির মাঝে ক্ষোভ">
+                                <h5 class="">
+                                    <serial> ১৬.</serial>
+                                    মেট্রোরেল কর্মীদের ডিজিটাল হাজিরা চালু: স্বস্তির মাঝে ক্ষোভ
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919708" title="চাঁপাইনবাবগঞ্জে বজ্রপাতে ২ জনের মৃত্যু">
+                                <h5 class="">
+                                    <serial> ১৭.</serial>
+                                    চাঁপাইনবাবগঞ্জে বজ্রপাতে ২ জনের মৃত্যু
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/religion/919670" title="আল্লাহ কোরআনে জানালেন বিশেষ ৩ গুণের কথা">
+                                <h5 class="">
+                                    <serial> ১৮.</serial>
+                                    আল্লাহ কোরআনে জানালেন বিশেষ ৩ গুণের কথা
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919707" title="আদ্-দ্বীনে ৬ নবজাতকের মৃত্যু: স্বাস্থ্যমন্ত্রীর কাছে তদন্ত প্রতিবেদন জমা">
+                                <h5 class="">
+                                    <serial> ১৯.</serial>
+                                    আদ্-দ্বীনে ৬ নবজাতকের মৃত্যু: স্বাস্থ্যমন্ত্রীর কাছে তদন্ত প্রতিবেদন জমা
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919706" title="মায়ের প্রতি অবহেলা:ছেলে যুগ্ম সচিব আনিসুরকে দায়িত্ব থেকে প্রত্যাহার">
+                                <h5 class="">
+                                    <serial> ২০.</serial>
+                                    মায়ের প্রতি অবহেলা:ছেলে যুগ্ম সচিব আনিসুরকে দায়িত্ব থেকে প্রত্যাহার
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919705" title="নিলামে উঠছে পেলের ১৯৫৮ সালের ফাইনালের জার্সি">
+                                <h5 class="">
+                                    <serial> ২১.</serial>
+                                    নিলামে উঠছে পেলের ১৯৫৮ সালের ফাইনালের জার্সি
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919704" title="বিদ্যুতের দাম বাড়ানো গণবিরোধী, সিদ্ধান্ত প্রত্যাহারের দাবি বাসদের">
+                                <h5 class="">
+                                    <serial> ২২.</serial>
+                                    বিদ্যুতের দাম বাড়ানো গণবিরোধী, সিদ্ধান্ত প্রত্যাহারের দাবি বাসদের
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919703" title="ঈদের ছুটিতে মেট্রোরেলে যাতায়াত করেছেন সাড়ে ১০ লাখের বেশি যাত্রী">
+                                <h5 class="">
+                                    <serial> ২৩.</serial>
+                                    ঈদের ছুটিতে মেট্রোরেলে যাতায়াত করেছেন সাড়ে ১০ লাখের বেশি যাত্রী
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919702" title="চপলের আরও এক বড় চমক">
+                                <h5 class="">
+                                    <serial> ২৪.</serial>
+                                    চপলের আরও এক বড় চমক
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919701" title="বরগুনায় সেপটিক ট্যাঙ্কের বিষাক্ত গ্যাসে দুই শ্রমিকের মৃত্যু">
+                                <h5 class="">
+                                    <serial> ২৫.</serial>
+                                    বরগুনায় সেপটিক ট্যাঙ্কের বিষাক্ত গ্যাসে দুই শ্রমিকের মৃত্যু
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919700" title="হবিগঞ্জে আর্জেন্টিনা-ব্রাজিল সমর্থকদের সংঘর্ষ, আহত অর্ধশতাধিক">
+                                <h5 class="">
+                                    <serial> ২৬.</serial>
+                                    হবিগঞ্জে আর্জেন্টিনা-ব্রাজিল সমর্থকদের সংঘর্ষ, আহত অর্ধশতাধিক
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919699" title="ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী">
+                                <h5 class="">
+                                    <serial> ২৭.</serial>
+                                    ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919698" title="গোপালগঞ্জে মহাসড়কে টায়ার জ্বালিয়ে নিষিদ্ধ সংগঠন ছাত্রলীগের বিক্ষোভ">
+                                <h5 class="">
+                                    <serial> ২৮.</serial>
+                                    গোপালগঞ্জে মহাসড়কে টায়ার জ্বালিয়ে নিষিদ্ধ সংগঠন ছাত্রলীগের বিক্ষোভ
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/sports/919696" title="নেপালের স্বপ্ন ভেঙে ফাইনালে বাংলাদেশ">
+                                <h5 class="">
+                                    <serial> ২৯.</serial>
+                                    নেপালের স্বপ্ন ভেঙে ফাইনালে বাংলাদেশ
+                                </h5>
+                            </a>
+                        </li>
+                                                                    <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919695" title="বাঁশের খুঁটিতে বিদ্যুৎ লাইন, ৫ গরুর মৃত্যু">
+                                <h5 class="">
+                                    <serial> ৩০.</serial>
+                                    বাঁশের খুঁটিতে বিদ্যুৎ লাইন, ৫ গরুর মৃত্যু
+                                </h5>
+                            </a>
+                        </li>
+                                    </ul>
+                <btn-more>
+                    <a href="https://khaborerkagoj.com/index.php/archive" class="btn btn-more-news ">সব খবর</a>
+                </btn-more>
+                    </div>
+        <div id="popular" class="tab-content">
+                            <ul class="overflow-y-scroll height325" >
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/economics-business/919570" title="ঠাকুরগাঁওয়ে লিচু ব্যবসায় ধস">
+                                <h5 class="">
+                                    <serial> ১.</serial>
+                                    ঠাকুরগাঁওয়ে লিচু ব্যবসায় ধস
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919590" title="‎সদরপুরে সরকারি জমি থেকে মাটি কাটায় জরিমানা">
+                                <h5 class="">
+                                    <serial> ২.</serial>
+                                    ‎সদরপুরে সরকারি জমি থেকে মাটি কাটায় জরিমানা
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/country/919607" title="বাল্যবিয়ের আসরে আকস্মিক উপস্থিত ইউএনও, অতপর...">
+                                <h5 class="">
+                                    <serial> ৩.</serial>
+                                    বাল্যবিয়ের আসরে আকস্মিক উপস্থিত ইউএনও, অতপর...
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919699" title="ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী">
+                                <h5 class="">
+                                    <serial> ৪.</serial>
+                                    ইংলিশ মিডিয়াম স্কুলকে অভিন্ন নীতিমালার আওতায় আনা হচ্ছে: শিক্ষা প্রতিমন্ত্রী
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/national/919671" title="হাম-উপসর্গে মৃত্যু ৬০০ ছাড়াল">
+                                <h5 class="">
+                                    <serial> ৫.</serial>
+                                    হাম-উপসর্গে মৃত্যু ৬০০ ছাড়াল
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/crime/919589" title="৯ বছরের শিশুকে ধর্ষণচেষ্টার অভিযোগে ৭০ বছরের বৃদ্ধ আটক">
+                                <h5 class="">
+                                    <serial> ৬.</serial>
+                                    ৯ বছরের শিশুকে ধর্ষণচেষ্টার অভিযোগে ৭০ বছরের বৃদ্ধ আটক
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/mass-media/919597" title="ন্যাশনাল এডিটরস কাউন্সিলের আত্মপ্রকাশ">
+                                <h5 class="">
+                                    <serial> ৭.</serial>
+                                    ন্যাশনাল এডিটরস কাউন্সিলের আত্মপ্রকাশ
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/economics-business/919609" title="দাম বেড়েছে ব্রিটেন পাউন্ড, চায়না ইউয়ানের">
+                                <h5 class="">
+                                    <serial> ৮.</serial>
+                                    দাম বেড়েছে ব্রিটেন পাউন্ড, চায়না ইউয়ানের
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/lives-nature/919566" title="স্নিগ্ধ রং ও সুবাসের বেলি ফুল">
+                                <h5 class="">
+                                    <serial> ৯.</serial>
+                                    স্নিগ্ধ রং ও সুবাসের বেলি ফুল
+                                </h5>
+                            </a>
+                        </li>
+                    
+                                                <li>
+                            <a href="https://khaborerkagoj.com/index.php/economics-business/919636" title="প্রতিটি নাগরিকের কথা মাথায় রেখে বাজেট হচ্ছে: অর্থমন্ত্রী">
+                                <h5 class="">
+                                    <serial> ১০.</serial>
+                                    প্রতিটি নাগরিকের কথা মাথায় রেখে বাজেট হচ্ছে: অর্থমন্ত্রী
+                                </h5>
+                            </a>
+                        </li>
+                                    </ul>
+                <btn-more>
+                    <a href="https://khaborerkagoj.com/index.php/archive" class="btn btn-more-news ">সব খবর</a>
+                </btn-more>
+                    </div>
+        
+        
+        
+        
+    </div>
+    
+    <style>
+        .height325{
+            height:280px;
+        }
+    </style>
+        </div>
+        <div class="other-category">
+        <div class="other-category-top">
+            <a href="https://khaborerkagoj.com/index.php/agriculture" title="">
+                <h5>
+                    খেত খামার
+                </h5>
+            </a>
+        </div>
+                                <div class="content">
+                <a href="https://khaborerkagoj.com/index.php/agriculture/919557" title="নিরাপদ সবজি চাষে ঝুঁকছেন দিনাজপুরের কৃষকরা" class="headline-then-image">
+                    <div class="col-8 headline-container">
+                        
+                        <h5>
+                                                        নিরাপদ সবজি চাষে ঝুঁকছেন দিনাজপুরের কৃষকরা
+                        </h5>
+                    </div>
+
+                    <div class="col-4 image-container" style="background-color: white">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/06/02/mobile/Untitled-17-1780416790.jpg" alt="নিরাপদ সবজি চাষে ঝুঁকছেন দিনাজপুরের কৃষকরা">
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+                                <div class="content">
+                <a href="https://khaborerkagoj.com/index.php/agriculture/917991" title="কোটি টাকার খামার গড়লেন লক্ষ্মীপুরের লিটন" class="headline-then-image">
+                    <div class="col-8 headline-container">
+                        
+                        <h5>
+                                                        কোটি টাকার খামার গড়লেন লক্ষ্মীপুরের লিটন
+                        </h5>
+                    </div>
+
+                    <div class="col-4 image-container" style="background-color: white">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/19/mobile/Untitled-1-1779161778.jpg" alt="কোটি টাকার খামার গড়লেন লক্ষ্মীপুরের লিটন">
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+                                <div class="content">
+                <a href="https://khaborerkagoj.com/index.php/agriculture/917679" title="ভুট্টা চাষে চরাঞ্চলে ফিরছে সচ্ছলতা" class="headline-then-image">
+                    <div class="col-8 headline-container">
+                        
+                        <h5>
+                                                        ভুট্টা চাষে চরাঞ্চলে ফিরছে সচ্ছলতা
+                        </h5>
+                    </div>
+
+                    <div class="col-4 image-container" style="background-color: white">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/17/mobile/Corn-1778990359.jpg" alt="ভুট্টা চাষে চরাঞ্চলে ফিরছে সচ্ছলতা">
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+                                <div class="content">
+                <a href="https://khaborerkagoj.com/index.php/agriculture/917675" title="নবীনগরে বাড়ছে জাপানের ওকিনাওয়া মিষ্টি আলুর চাহিদা" class="headline-then-image">
+                    <div class="col-8 headline-container">
+                        
+                        <h5>
+                                                        নবীনগরে বাড়ছে জাপানের ওকিনাওয়া মিষ্টি আলুর চাহিদা
+                        </h5>
+                    </div>
+
+                    <div class="col-4 image-container" style="background-color: white">
+                        <div class="image">
+                            <img class="img-fluid" src="uploads/2026/05/17/mobile/Sweet-Potato-1778990090.jpg" alt="নবীনগরে বাড়ছে জাপানের ওকিনাওয়া মিষ্টি আলুর চাহিদা">
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+
+    </div>
+
+
+    </div>
+        
+        
+    </div>
+</div>
+
+
+
+
+
+<a id="button"></a>
+
+
+<footer class="py-3" style="background-color: #e5ca5466">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-12 my-3">
+                <div class="logo d-flex justify-content-center justify-content-lg-start">
+                    <a href="https://khaborerkagoj.com/index.php">
+                        <img src="https://khaborerkagoj.com/img/logo-footer.png" alt="Khaborer Kagoj" class="img-fluid"
+                             style="width: 210px; ">
+                    </a>
+                </div>
+                
+
+                <div class="info mt-3">
+                    <div class="editor-section ">
+                        <div class=" identity text-bold d-flex justify-content-center justify-content-lg-start"
+                             style="font-size: 17px; "><span style="padding-right:10px;color: var(--site-color)">সম্পাদক: </span> মোস্তফা কামাল
+                        </div>
+                        
+                        <div class="d-flex justify-content-center justify-content-lg-start newsreader_60">
+                            <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5633323f223924163d3e3734392433243d3731393c7835393b">[email&#160;protected]</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="address mt-4 d-flex flex-column" style="font-size: 17px">
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        ১১৫ কাজী নজরুল ইসলাম এভিনিউ, লেভেল-১৩, বাংলামোটর, ঢাকা-১০০০ থেকে প্রকাশক মোস্তফা কামাল কর্তৃক প্রকাশিত। স্কাইব্রিজ প্রিন্টিং এন্ড প্যাকেজিং লিমিটেড, ৭/এ/১ তেজগাঁও শিল্প এলাকা, ঢাকা থেকে মুদ্রিত।
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-2 col-12 my-3">
+                <div class="row footer-link ">
+                    <div class="col-lg-12 col-6 mb-3 d-flex justify-content-center">
+                        <a href="https://khaborerkagoj.com/index.php/privacy-policy">
+                            গোপনীয়তার নীতি
+                        </a>
+                    </div>
+
+                    <!--<div class="col-lg-12 col-6 mb-3 d-flex justify-content-center">-->
+                    <!--    ব্যবহারের শর্তাবলি-->
+                    <!--</div>-->
+
+                    <div class="col-lg-12 col-6 mb-3 d-flex justify-content-center">
+                        <a href="https://khaborerkagoj.com/index.php/contact-us">
+                            যোগাযোগ
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-lg-12 col-6  mb-3 d-flex justify-content-center">
+                        <a href="https://www.khaborerkagoj.com/archive">
+                            আর্কাইভ
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-lg-12 col-6 mb-3 d-flex justify-content-center">
+                        <a href="https://khaborerkagoj.com/index.php/about">
+                            আমাদের সম্পর্কে
+                        </a>
+                        
+                    </div>
+                    <div class="col-lg-12 col-6 mb-3 d-flex justify-content-center">
+                        <a href="./ad-rate-card">
+                            বিজ্ঞাপনের মূল্য তালিকা
+                        </a>
+                        
+                    </div>
+
+                    <!--<div class="col-lg-12 col-6 d-flex justify-content-center">-->
+                    <!--    কনভার্টার-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <div class="col-lg-5 col-12 my-3">
+                <div class="newsroom-section mb-2">
+                    <div class="identity text-bold d-flex justify-content-lg-end justify-content-center"
+                         style="font-size: 17px; color: var(--site-color)">বার্তা, সম্পাদকীয় ও ফিচার বিভাগ 
+                    </div>
+                    <div class="d-flex justify-content-lg-end justify-content-center" style="font-size: 17px">+৮৮০২২২৬৬৬৫০৫৩-৪</div>
+                    <div class="identity text-bold d-flex justify-content-lg-end justify-content-center"
+                         style="font-size: 17px; color: var(--site-color)">বিজ্ঞাপন 
+                    </div>
+                    <div class="d-flex justify-content-lg-end justify-content-center" style="font-size: 17px">+৮৮০২২২৬৬৬৫০৫১</div>
+                    
+                    <div class="identity text-bold d-flex justify-content-lg-end justify-content-center"
+                         style="font-size: 17px; color: var(--site-color)">সার্কুলেশন 
+                    </div>
+                    <div class="d-flex justify-content-lg-end justify-content-center" style="font-size: 17px">+৮৮০২২২৬৬৬৫০৫২</div>
+                    
+                    <div class="  d-flex justify-content-lg-end justify-content-center newsreader_60">
+                        <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="86efe8e0e9c6edeee7e4e9f4e3f4ede7e1e9eca8e5e9eb">[email&#160;protected]</a> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 my-4 d-flex justify-content-lg-end justify-content-center">
+                        <text><i class="fa-solid fa-caret-down me-1" style="font-size: 1.25rem"></i> অনুসরণ করুন </text>
+                    </div>
+                    <div class="col-lg-8 col-6 mb-3 d-flex justify-content-lg-end justify-content-center"><a href="https://www.facebook.com/dailykhaborerkagoj"
+                                                                                                             target="_blank" class="d-flex align-items-center newsreader_60"><i
+                                class="force-facebook-hover fa-brands fa-facebook me-2" style="font-size: 25px"></i>Facebook</a>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-3 d-flex justify-content-lg-end justify-content-center">
+                        <a href="https://twitter.com/khaborerkagojbd" target="_blank" class="d-flex align-items-center newsreader_60">
+                            <i class="force-twitter-hover fa-brands fa-twitter me-2" style="font-size: 25px"></i>
+                            <!--<img src="./img/x-social-media-black-icon.svg" alt="khaborer-kag0j-twitter" class="force-twitter-hover" style="width:20px; margin-right:10px;" />-->
+                            Twitter
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-6 mb-3 d-flex justify-content-lg-end justify-content-center"><a href="https://www.youtube.com/@khaborerkagoj"
+                                                                                                             target="_blank" class="d-flex align-items-center newsreader_60"><i
+                                class="force-youtube-hover fa-brands fa-youtube me-2"
+                                style="font-size: 25px"></i>Youtube</a></div>
+                    <div class="col-lg-4 col-6 mb-3 d-flex justify-content-lg-end justify-content-center"><a href="https://www.linkedin.com/in/khaborer-kagoj-খবরের-কাগজ-120353283"
+                                                                                                             target="_blank" class="d-flex align-items-center newsreader_60"><i
+                                class="force-linkedin-hover fa-brands fa-linkedin me-2" style="font-size: 25px"></i>Linkedin</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 d-flex justify-content-center align-items-center text-bg-dark py-1">
+            © ২০২৬ সর্বস্বত্ব সংরক্ষিত | খবরের কাগজ
+        </div>
+
+    </div>
+</footer>
+
+
+<!--script-->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="frontend/common/dist/js/jquery.min.js" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+
+
+</script><script type="efb55b541d1e3765d92e8e07-text/javascript" src="./assets/site/js/bootstrap.min.js"></script>
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0}, '300');
+    });
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 20) {
+            $(".DHeaderNav").addClass('sticky');
+            $(".DHeaderNav").css
+        } else {
+            $(".DHeaderNav").removeClass('sticky');
+        }
+    });
+</script>
+
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+
+    function hideFooterAd() {
+        document.querySelector(`.footer-advertisement`).style.display = `none`;
+        document.getElementById(`button`).style.bottom = "1%";
+    }
+
+
+</script>
+
+
+
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+    let colorChange = document.getElementsByClassName(`change-color`);
+
+    for (let i = 0; i < colorChange.length; i++) {
+        setInterval(function () {
+            colorChange[i].style.color = (colorChange[i].style.color == `black` ? `white` : `black`);
+        }, 1000)
+    }
+
+
+</script>
+
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+    window.addEventListener(`scroll`, function () {
+        let navLogo = document.querySelector(`.nav-logo`);
+        let homeLink = document.querySelector(`.home-link`);
+        let scrollPosition = window.scrollY;
+
+        if (scrollPosition > 80) {
+            navLogo.style.display = 'block';
+            homeLink.style.display = 'none';
+        } else {
+            navLogo.style.display = 'none';
+            homeLink.style.display = 'block';
+        }
+    });
+</script>
+
+<script type="efb55b541d1e3765d92e8e07-text/javascript">
+    window.onload = function () {
+        let scrollButton = document.getElementById('button');
+
+        let footerAdvertisement = document.querySelector('.footer-advertisement');
+
+        if (footerAdvertisement) {
+            let footerAdvertisementStyles = window.getComputedStyle(footerAdvertisement);
+
+            if (footerAdvertisementStyles.visibility === 'visible') {
+                // Get the height of the footerAdvertisement
+                const footerHeight = footerAdvertisement.offsetHeight;
+
+                // Set the 'scrollButton.style.bottom' property to the new value
+                scrollButton.style.bottom = `calc(1% + ${footerHeight}px)`;
+            }
+        }
+    };
+</script>
+
+<script src="desktop/js/lazyload.min.js" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+
+
+    <script type="efb55b541d1e3765d92e8e07-text/javascript">
+        function tabContents(event, contentCategory) {
+            let i, tabContent, tabLinks;
+
+            tabContent = document.getElementsByClassName('tab-content');
+
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+
+            tabLinks = document.getElementsByClassName('tab-category-link');
+
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].className = tabLinks[i].className.replace("active", "");
+            }
+
+            document.getElementById(contentCategory).style.display = "block";
+            event.currentTarget.className += "active";
+        }
+        $(document).ready(function () {
+            document.getElementById("default").click();
+        });
+    </script>
+    <script src="./frontend/common/dist/select2/js/select2.js" type="efb55b541d1e3765d92e8e07-text/javascript"></script>
+    <script type="efb55b541d1e3765d92e8e07-text/javascript">
+        $(document).ready(function () {
+            $('.category').select2();
+        });
+    </script>
+
+    <script type="efb55b541d1e3765d92e8e07-text/javascript">
+        function divisionsList() {
+            var diviList = document.getElementById('division').value;
+            console.log(diviList);
+            // alert("on change working");
+            // get value from division lists
+            var disctList = '<option value="">জেলা বাছাই করুন</option>';
+            if(diviList.includes("6") == true){	 //	Barishal
+                disctList += '<option value="barishal">বরিশাল</option><option value="barguna">বরগুনা</option><option value="bhola">ভোলা</option><option value="jhalokathi">ঝালকাঠি</option><option value="pirojpur">পিরোজপুর</option><option value="patuakhali">পটুয়াখালী</option>';
+            }
+            if(diviList.includes("2") == true) { //Chattogram
+                disctList += '<option value="chattogram">চট্টগ্রাম</option><option value="bandarban">বান্দরবান</option><option value="rangamati">রাঙামাটি</option><option value="khagrachari">খাগড়াছড়ি</option><option value="cox-s-bazar">কক্সবাজার</option><option value="feni">ফেনী</option><option value="noakhali">নোয়াখালী</option><option value="lakshmipur">লক্ষ্মীপুর</option><option value="cumilla">কুমিল্লা</option><option value="brahmanbaria">ব্রাহ্মণবাড়িয়া</option><option value="chandpur">চাঁদপুর</option>';
+            }
+            if(diviList.includes("1") == true) {  //Dhaka
+                disctList += '<option value="dhaka">ঢাকা</option><option value="manikganj">মানিকগঞ্জ</option><option value="gazipur">গাজীপুর</option><option value="narayanganj">নারায়ণগঞ্জ</option><option value="tangail">টাঙ্গাইল</option><option value="madaripur">মাদারীপুর</option><option value="munsiganj">মুন্সিগঞ্জ</option><option value="gopalganj">গোপালগঞ্জ</option><option value="kishoreganj">কিশোরগঞ্জ</option><option value="narsingdi">নরসিংদী</option><option value="shariatpur">শরীয়তপুর</option><option value="rajbari">রাজবাড়ী</option><option value="faridpur">ফরিদপুর</option>';
+            }
+            if(diviList.includes("5") == true) {  //khulna
+                disctList += '<option value="khulna">খুলনা</option><option value="bagerhat">বাগেরহাট</option><option value="chuadanga">চুয়াডাঙ্গা</option><option value="jashore">যশোর</option><option value="jhenaidah">ঝিনাইদহ</option><option value="kushtia">কুষ্টিয়া</option><option value="magura">মাগুরা</option><option value="meherpur">মেহেরপুর</option><option value="narail">নড়াইল</option><option value="satkhira">সাতক্ষীরা</option>';
+            }
+            if(diviList.includes("3") == true) {  //rajshahi
+                disctList += '<option value="rajshahi">রাজশাহী</option><option value="bogura">বগুড়া</option><option value="jaipurhat">জয়পুরহাট</option><option value="naogaon">নওগাঁ</option><option value="natore">নাটোর</option><option value="pabna">পাবনা</option><option value="sirajganj">সিরাজগঞ্জ</option><option value="chapainawabganj">চাঁপাইনবাবগঞ্জ</option>';
+            }
+            if(diviList.includes("4") == true) { //sylhet
+                disctList += '<option value="sylhet">সিলেট</option><option value="habiganj">হবিগঞ্জ</option><option value="moulvibazar">মৌলভীবাজার</option><option value="sunamganj">সুনামগঞ্জ</option>';
+            }
+            if(diviList.includes("7") == true) { //rangpur
+                disctList += '<option value="rangpur">রংপুর</option><option value="dinajpur">দিনাজপুর</option><option value="gaibandha">গাইবান্ধা</option><option value="kurigram">কুড়িগ্রাম</option><option value="lalmonirhat">লালমনিরহাট</option><option value="nilphamari">নীলফামারী</option><option value="panchagarh">পঞ্চগড়</option><option value="thakurgaon">ঠাকুরগাঁও</option>';
+            }
+            if(diviList.includes("8") == true) { //Mtmensing
+                disctList += '<option value="mymensingh">ময়মনসিংহ</option><option value="jamalpur">জামালপুর</option><option value="sherpur">শেরপুর</option><option value="netrokona">নেত্রকোনা</option>';
+            }
+            //  set/send districts name to District lists from division
+            document.getElementById("distr").innerHTML= disctList;
+        }
+    </script>
+
+
+<!--end script-->
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="efb55b541d1e3765d92e8e07-|49" defer></script></body>
+</html>
